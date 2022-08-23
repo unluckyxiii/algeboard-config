@@ -50,8 +50,8 @@
         windows_fn {
             bindings = <
                &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &kp F1         &kp F2    &kp F3      &kp F4     &kp F5      &kp F6         &kp F7     &kp F8           &kp F9       &kp F10     &kp F11       &kp F12     &kp C_MUTE
-               &rgb_ug RGB_SAI           &trans  &trans  &kp BACKSPACE    &kp UP  &kp DELETE  &kp LG(X)   &kp KP_N7      &kp KP_N8  &kp KP_N9      &kp KP_PLUS     &kp EQUAL      &trans        &trans         &trans
-       &tog 3  &rgb_ug RGB_SAD           &trans  &trans       &kp LEFT  &kp DOWN   &kp RIGHT  &kp LG(C)   &kp KP_N4      &kp KP_N5  &kp KP_N6     &kp KP_MINUS        &trans      &trans    &kp RETURN  &kp C_BRI_INC
+               &rgb_ug RGB_SAI           &trans  &trans  &kp BACKSPACE    &kp UP  &kp DELETE  &kp LC(X)   &kp KP_N7      &kp KP_N8  &kp KP_N9      &kp KP_PLUS     &kp EQUAL      &trans        &trans         &trans
+       &tog 3  &rgb_ug RGB_SAD           &trans  &trans       &kp LEFT  &kp DOWN   &kp RIGHT  &kp LC(C)   &kp KP_N4      &kp KP_N5  &kp KP_N6     &kp KP_MINUS        &trans      &trans    &kp RETURN  &kp C_BRI_INC
  &out OUT_USB  &rgb_ug RGB_BRI           &trans  &trans         &trans    &trans      &trans     &trans   &kp KP_N1      &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY        &trans      &trans  &kp C_VOL_UP  &kp C_BRI_DEC
  &out OUT_BLE  &rgb_ug RGB_BRD           &trans  &trans         &trans    &trans      &trans  &kp KP_N0  &kp KP_DOT  &kp KP_DIVIDE     &trans       &kp C_PREV  &kp C_VOL_DN  &kp C_NEXT
             >;
